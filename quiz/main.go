@@ -50,7 +50,6 @@ func parseLines(lines [][]string) []problem {
 	return ret
 }
 
-//sample comment
 func exit(msg string) {
 	fmt.Printf(msg)
 	os.Exit(1)
